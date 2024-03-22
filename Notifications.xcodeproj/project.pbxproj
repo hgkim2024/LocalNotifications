@@ -13,6 +13,7 @@
 		5260E0B52BAD488D00749A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5260E0B32BAD488D00749A64 /* Main.storyboard */; };
 		5260E0B72BAD488E00749A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5260E0B62BAD488E00749A64 /* Assets.xcassets */; };
 		5260E0BA2BAD488E00749A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5260E0B82BAD488E00749A64 /* LaunchScreen.storyboard */; };
+		5260E0C32BAD48F000749A64 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5260E0C22BAD48F000749A64 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5260E0B62BAD488E00749A64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5260E0B92BAD488E00749A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5260E0BB2BAD488E00749A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5260E0C22BAD48F000749A64 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		5260E0AC2BAD488D00749A64 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				5260E0C12BAD48DE00749A64 /* Noti */,
 				5260E0AD2BAD488D00749A64 /* AppDelegate.swift */,
 				5260E0AF2BAD488D00749A64 /* SceneDelegate.swift */,
 				5260E0B12BAD488D00749A64 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				5260E0BB2BAD488E00749A64 /* Info.plist */,
 			);
 			path = Notifications;
+			sourceTree = "<group>";
+		};
+		5260E0C12BAD48DE00749A64 /* Noti */ = {
+			isa = PBXGroup;
+			children = (
+				5260E0C22BAD48F000749A64 /* NotificationManager.swift */,
+			);
+			path = Noti;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				5260E0B22BAD488D00749A64 /* ViewController.swift in Sources */,
 				5260E0AE2BAD488D00749A64 /* AppDelegate.swift in Sources */,
+				5260E0C32BAD48F000749A64 /* NotificationManager.swift in Sources */,
 				5260E0B02BAD488D00749A64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
