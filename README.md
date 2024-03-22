@@ -13,7 +13,7 @@
 
 <br>
 
-## AppDelegate.swift - Notifications 설정
+## AppDelegate - Notifications 설정
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
