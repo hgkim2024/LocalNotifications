@@ -69,3 +69,17 @@ func showNotification(delayInterval: TimeInterval = 0.1) {
     updateAppBadge(badgeCount)
 }
 ```
+<br>
+
+## Notification 권한이 있는데 Local Notification 과 App badge 가 나타나지 않을 때
+- 아이폰 설정을 초기화 한다. 초기화 방법은 아래와 같다.
+- 설정 → 일반 → 재설정 → 모든 설정 재설정
+<br>
+<img src="https://github.com/hgkim2024/LocalNotifications/assets/163487894/7403991e-d0d2-488a-b3e4-361b81477236" width="20%"></img>
+<img src="https://github.com/hgkim2024/LocalNotifications/assets/163487894/0408421c-bc91-4199-87df-598366dfb720" width="20%"></img>
+<img src="https://github.com/hgkim2024/LocalNotifications/assets/163487894/317945f2-1a7b-4199-924c-634b7b9cdff1" width="20%"></img>
+<img src="https://github.com/hgkim2024/LocalNotifications/assets/163487894/b5476c01-ee53-4af9-9180-06674b3cea0d" width="20%"></img>
+
+
+
+
